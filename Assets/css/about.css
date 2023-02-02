@@ -122,3 +122,41 @@ h1 {
     /* width: 100%; */
 }
 
+<<<<<<< Updated upstream:Assets/about.css
+||||||| constructed merge base:Assets/about.css
+/* ul {
+    list-style-type: none;
+} */
+=======
+/* ul {
+    list-style-type: none;
+} */
+body{
+    overflow-x: hidden;
+}
+#about h1::after{
+	content: '';
+   background: #625f5f;
+   display: block;
+   height: 3px;
+   width: 3em;
+   margin:3px auto 2px;
+}
+header p{
+    font-size: 1.2em;
+}
+#line{
+    display: flex;
+}
+#line-two{
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    padding: 3.5em;
+}
+.profile img{
+    width: 25em;
+    height: 15em;
+}
+>>>>>>> Stashed changes:Assets/css/about.css
