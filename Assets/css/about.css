@@ -122,18 +122,19 @@ h1 {
     /* width: 100%; */
 }
 
-<<<<<<< Updated upstream:Assets/about.css
-||||||| constructed merge base:Assets/about.css
+/* <<<<<<< Updated upstream:Assets/about.css
+||||||| constructed merge base:Assets/about.css */
 /* ul {
     list-style-type: none;
 } */
-=======
+/* ======= */
 /* ul {
     list-style-type: none;
 } */
 body{
     overflow-x: hidden;
 }
+
 #about h1::after{
 	content: '';
    background: #625f5f;
@@ -159,4 +160,4 @@ header p{
     width: 25em;
     height: 15em;
 }
->>>>>>> Stashed changes:Assets/css/about.css
+/* >>>>>>> Stashed changes:Assets/css/about.css */
