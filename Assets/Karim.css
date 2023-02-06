@@ -1,0 +1,66 @@
+/*
+    Hello Karim,
+        Copy the work below and paste it in the about.css file.
+
+        You could get started immedietly you get this. You do not require anyone else's 
+        work and hopefully you wont face a conflict either. Please note that 2 other members
+        are rellying on your work. So please make it as soon as you can.
+
+        Once done please save, commit and push the work to our github.
+*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.bg img{
+    width: 100%;
+    height: 45.8vw;
+}
+
+.headerText p{
+    font-family: 'Niconne', cursive;
+    color: #01102b;
+    margin-top: 15%;
+    margin-left: 15%;
+    position: absolute;
+    font-size: 10vw;
+}
+
+.normalText p{
+    font-family: 'Itim', cursive;
+    color: #110f2c;
+    width: 45%;
+    margin-top: 22%;
+    margin-left: 15%;
+    position: absolute;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.btn{
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Itim', cursive;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 17%;
+}
+.btn1{
+    color: #3498db;
+}
+.btn1:hover{
+    color: #fff;
+    background: #3498db;
+}
