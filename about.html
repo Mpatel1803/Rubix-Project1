@@ -2,86 +2,187 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Us</title>
-    <link rel="stylesheet" href="./Assets/about.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+  <link rel="stylesheet" href="./Assets/css/about.css">
 
-    <!--Font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
 
 </head>
 
 <body>
 
-    <nav class="navbar">
-        <div class="content">
-            <div class="logo">
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
 
-                <a href="#">Rubix <span><i class="fa fa-cube"></i></span></a>
-            </div>
-            <ul class="menu-list">
-                <div class="icon cancel-btn">
-                    <i class="fas fa-times"></i>
-                </div>
-                <li><a href="Index.html">Home</a></li>
-                <li>
-                    <a></a>|</li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-            <div class="icon menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
+        <a href="#">Rubix <span><i class="fa fa-cube"></i></span></a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
         </div>
-    </nav>
-
-    <script>
-        const body = document.querySelector("body");
-        const navbar = document.querySelector(".navbar");
-        const menuBtn = document.querySelector(".menu-btn");
-        const cancelBtn = document.querySelector(".cancel-btn");
-        const nextButton = document.querySelector(".nextButton");
-        menuBtn.onclick = () => {
-            navbar.classList.add("show");
-            menuBtn.classList.add("hide");
-            body.classList.add("disabled");
-        }
-        cancelBtn.onclick = () => {
-            body.classList.remove("disabled");
-            navbar.classList.remove("show");
-            menuBtn.classList.remove("hide");
-        }
-        window.onscroll = () => {
-            this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-        }
-        nextButton.onclick = () => {
-            location.href = 'about.html'
-        }
-    </script>
-
-
-    <div class="headerText">
-        <p>Meet the team</p>
+        <li><a href="Index.html">Home</a></li>
+        <li>
+          <a></a>|
+        </li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
     </div>
-    <div class="normalText">
-        <p>Team Rubix is made up of 5 dedicated Software Engineers - in the making, who come from different backgrounds and cultures. Despite the differences, we all work to achieve one common goal, Success!
-            <br>We believe in Success = Hardwork + Perseverance + Prayers.
+  </nav>
+
+  <div class="headerText">
+    <p>Meet the team</p>
+  </div>
+  <div class="normalText">
+    <p>Team Rubix is made up of 5 dedicated Software Engineers - in the making, who come from different backgrounds and
+      cultures. Despite the differences, we all work to achieve one common goal, Success!
+      <br>We believe in Success = Hardwork + Perseverance + Prayers.
+    </p>
+  </div>
+
+  <div class="nextButton">
+    <button class="btn btn1">View Members</button>
+  </div>
+
+  <div class="bg">
+    <img src="./Assets/Images/aboutImage.jpg" alt="Background">
+  </div>
+
+  <!--Manav and Alex-->
+  <section>
+    <div id="numberOne">
+      <div class="container">
+        <div class="image">
+          <img src="./Assets/Images/karim.webp" alt="Manav's Profile">
+        </div>
+        <h1>Manav Patel</h1>
+        <h2>Student: Software Engineer</h2>
+
+        <p>
+          Hello, My name is Manav Patel. I am a student pursuing APT. I love to travel and learn
+          and explore new cultures. I also like to play cricket and do swimming. On my free time I like
+          to learn new things, watch series or either just scroll through instagram reels.
         </p>
+      </div>
+
+      <!--Alex-->
+      <section>
+        <div class="container2">
+          <div class="image2">
+            <img src="./Assets/Images/karim.webp" alt="Manav's Profile">
+          </div>
+          <h1>Manav Patel</h1>
+          <h2>Student: Software Engineer</h2>
+
+          <p>
+            Hello, My name is Manav Patel. I am a student pursuing APT. I love to travel and learn
+            and explore new cultures. I also like to play cricket and do swimming. On my free time I like
+            to learn new things, watch series or either just scroll through instagram reels.
+          </p>
+        </div>
+      </section>
+
+      <div class="bg">
+        <img src="/Assets/Images/default.jpg" alt="Background">
+      </div>
+    </div>
+  </section>
+
+  <!--Abdel and Khawla-->
+  <section>
+    <div class="container">
+      <div class="image">
+        <img src="./Assets/Images/karim.webp" alt="Manav's Profile">
+      </div>
+      <h1>Manav Patel</h1>
+      <h2>Student: Software Engineer</h2>
+
+      <p>
+        Hello, My name is Manav Patel. I am a student pursuing APT. I love to travel and learn
+        and explore new cultures. I also like to play cricket and do swimming. On my free time I like
+        to learn new things, watch series or either just scroll through instagram reels.
+      </p>
     </div>
 
-    <div class="nextButton">
-        <button class="btn btn1">View Members</button>
-    </div>
+    <!--Khawla-->
+    <section>
+      <div class="container2">
+        <div class="image2">
+          <img src="./Assets/Images/karim.webp" alt="Manav's Profile">
+        </div>
+        <h1>Manav Patel</h1>
+        <h2>Student: Software Engineer</h2>
+
+        <p>
+          Hello, My name is Manav Patel. I am a student pursuing APT. I love to travel and learn
+          and explore new cultures. I also like to play cricket and do swimming. On my free time I like
+          to learn new things, watch series or either just scroll through instagram reels.
+        </p>
+      </div>
+    </section>
 
     <div class="bg">
-        <img src="./Assets/Images/aboutImage.jpg" alt="Background">
+      <img src="/Assets/Images/default.jpg" alt="Background">
     </div>
+  </section>
+
+
+
+  <!--Ashley-->
+  <section>
+    <div class="container">
+      <div class="image">
+        <img src="./Assets/Images/karim.webp" alt="Manav's Profile">
+      </div>
+      <h1>Manav Patel</h1>
+      <h2>Student: Software Engineer</h2>
+
+      <p>
+        Hello, My name is Manav Patel. I am a student pursuing APT. I love to travel and learn
+        and explore new cultures. I also like to play cricket and do swimming. On my free time I like
+        to learn new things, watch series or either just scroll through instagram reels.
+      </p>
+    </div>
+
+  </section>
+
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    const nextButton = document.querySelector(".nextButton");
+    menuBtn.onclick = () => {
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = () => {
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = () => {
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+    nextButton.onclick = () => {
+      location.href = 'about.html'
+    }
+  </script>
+
 </body>
 
 </html>
