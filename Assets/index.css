@@ -149,3 +149,48 @@ span{
     font-size: 27px;
   }
 }
+.bg img{
+  width: 100%;
+  height: 45vw;
+}
+
+.headerText{
+  font-family: 'Niconne', cursive;
+  color: #01102b;
+  margin-top: 15%;
+  margin-left: 15%;
+  position: absolute;
+  font-size: 10vw;
+}
+
+.normalText{
+  font-family: 'Itim', cursive;
+  color: #110f2c;
+  width: 45%;
+  margin-top: 26%;
+  margin-left: 15%;
+  position: absolute;
+  font-size: 1.8vw;
+  text-align: justify;
+}
+
+.btn{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: 'Itim', cursive;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 17%;
+}
+.btn1{
+  color: #3498db;
+}
+.btn1:hover{
+  color: #fff;
+  background: #3498db;
+}
