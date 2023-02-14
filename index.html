@@ -1,87 +1,94 @@
 <!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Rubix</title>
+    <link rel="stylesheet" href="./Assets/css/index.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Team Rubix</title>
-  <link rel="stylesheet" href="./Assets/css/index.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Niconne&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
 
-  <!--Font-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
-
-</head>
-
-<body>
-
-  <nav class="navbar">
-    <div class="content">
-      <div class="logo">
-
-        <a href="#">Rubix <span><i class="fa fa-cube"></i></span></a>
-      </div>
-      <ul class="menu-list">
-        <div class="icon cancel-btn">
-          <i class="fas fa-times"></i>
+  <body>
+    <nav class="navbar">
+      <div class="content">
+        <div class="logo">
+          <a href="#"
+            >Rubix <span><i class="fa fa-cube"></i></span
+          ></a>
         </div>
-        <li><a href="Index.html">Home</a></li>
-        <li>
-          <a></a>|
-        </li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-      <div class="icon menu-btn">
-        <i class="fas fa-bars"></i>
+        <ul class="menu-list">
+          <div class="icon cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+          <li><a href="Index.html">Home</a></li>
+          <li><a></a>|</li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="icon menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
       </div>
+    </nav>
+
+    <div class="headerText">
+      <p>Rubix</p>
     </div>
-  </nav>
+    <div class="normalText">
+      <p>"Success is best when it's shared" ~ Howard Schultz</p>
+      <p>"Shivam IS STUPID</p>
+    </div>
 
-  <div class="headerText">
-    <p>Rubix</p>
-  </div>
-  <div class="normalText">
-    <p>"Success is best when it's shared" ~ Howard Schultz</p>
-    <p>"Shivam IS STUPID</p>
+    <div class="nextButton">
+      <button class="btn btn1">About Us</button>
+    </div>
 
-  </div>
+    <div class="bg">
+      <img
+        src="./Assets/Images/indexBG3.png"
+        alt="Image of Group 4 members collaborating"
+      />
+    </div>
 
-  <div class="nextButton">
-    <button class="btn btn1">About Us</button>
-  </div>
-
-  <div cla  ss="bg">
-    <img src="./Assets/Images/indexBG3.png" alt="Image of Group 4 members collaborating">
-  </div>
-
-  <script>
-    const body = document.querySelector("body");
-    const navbar = document.querySelector(".navbar");
-    const menuBtn = document.querySelector(".menu-btn");
-    const cancelBtn = document.querySelector(".cancel-btn");
-    const nextButton = document.querySelector(".nextButton");
-    menuBtn.onclick = () => {
-      navbar.classList.add("show");
-      menuBtn.classList.add("hide");
-      body.classList.add("disabled");
-    }
-    cancelBtn.onclick = () => {
-      body.classList.remove("disabled");
-      navbar.classList.remove("show");
-      menuBtn.classList.remove("hide");
-    }
-    window.onscroll = () => {
-      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-    }
-    nextButton.onclick = () => {
-      location.href = 'about.html'
-    }
-  </script>
-</body>
-
+    <script>
+      const body = document.querySelector("body");
+      const navbar = document.querySelector(".navbar");
+      const menuBtn = document.querySelector(".menu-btn");
+      const cancelBtn = document.querySelector(".cancel-btn");
+      const nextButton = document.querySelector(".nextButton");
+      menuBtn.onclick = () => {
+        navbar.classList.add("show");
+        menuBtn.classList.add("hide");
+        body.classList.add("disabled");
+      };
+      cancelBtn.onclick = () => {
+        body.classList.remove("disabled");
+        navbar.classList.remove("show");
+        menuBtn.classList.remove("hide");
+      };
+      window.onscroll = () => {
+        this.scrollY > 20
+          ? navbar.classList.add("sticky")
+          : navbar.classList.remove("sticky");
+      };
+      nextButton.onclick = () => {
+        location.href = "about.html";
+      };
+    </script>
+  </body>
 </html>
